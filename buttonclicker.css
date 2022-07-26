@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+}
+
+a{
+    color: blue;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightgray;
+    align-items: center;
+}
+
+#container{
+    margin: 0 auto;
+    width: 800px;
+}
+
+#title{
+    font-size: 3rem;
+}
+
+#search{
+    flex: 1;
+    margin: 0 100px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+}
+
+button{
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#row{
+    display: flex;
+}
+
+.ninjabox{
+    border: 2px solid black;
+    display: flex;
+    padding: 25px;
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+#login{
+    background-color: rgb(45, 135, 209);
+    color: white;
+}
+
+#rightbox{
+    padding: 25px;
+    margin-top: 25px;
+    border: 2px solid black;
+}
+
+#rightbox p{
+    font-size: 1.6rem;
+}
+
+#col-2{
+    flex: 1;
+    margin-left: 25px;
+}
+
+#col{
+    flex: 2;
+}
+
+.start{
+    flex: 1;
+    text-align: center;
+}
+
+.end{
+    flex: 3;
+    margin-left: 20px;
+}
+
+.end p{
+    font-size: 1.4rem;
+}
+
+#definition{
+    background-color: aquamarine;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.start p{
+    margin: 10px 0;
+}
+
+.like{
+    background-color: yellow;
+}
